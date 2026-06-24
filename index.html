@@ -1,0 +1,149 @@
+<html>
+<head>
+</head>
+
+<body style="
+    background-color: #080808;
+    color: #888;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+">
+
+<section style="min-height: 50vh; max-width: 800px; margin-bottom: 100px;">
+
+    <h1 style="color: rebeccapurple;">LIGHTSABER ACRONYM!</h1>
+
+    <h2>
+        <span style="color: steelblue;">L</span> LOCK IN!<br>
+        <span style="color: skyblue;">I</span> Intentional Goals<br>
+        <span style="color: darkblue;">G</span> Growth<br>
+        <span style="color: aliceblue;">H</span> Habits of consistency<br>
+        <span style="color: cadetblue;">T</span> Time Management<br>
+        <span style="color: cornflowerblue;">S</span> SMART Goals<br>
+        <span style="color: lawngreen;">A</span> Accountability<br>
+        <span style="color: palegreen;">B</span> Balance of School and Work<br>
+        <span style="color: springgreen;">E</span> Effective Communication<br>
+        <span style="color: yellowgreen;">R</span> Results<br>
+    </h2>
+
+    <h1 style="color: red;">Sith Code:</h1>
+
+    <h2 style="color: red;">
+        "Peace is a lie, there is only passion.<br>
+        Through passion, I gain strength.<br>
+        Through strength, I gain power.<br>
+        Through power, I gain victory.<br>
+        Through victory, my chains are broken.<br>
+        The Force shall free me."
+    </h2>
+
+    <h1 style="color: red;">Sith Code Revised Using SMART:</h1>
+
+    <h2 style="color: red;">
+        Vague purpose is a weakness, there is only clear intent.<br>
+        Through Specific goals, I gain direction.<br>
+        Through Measurable progress, I gain awareness.<br>
+        Through Achievable steps, I gain vision.<br>
+        Through Relevant values, I gain consistency.<br>
+        Through Time-bound deadlines, I gain urgency.<br>
+        Through structure, I gain mastery.<br>
+        Define your path and take action!
+    </h2>
+
+    <h1>01: Values, Motivations, and Goals</h1>
+
+    <h2 style="color: green;">
+        "Do or do not. There is no try." - Yoda
+    </h2>
+
+    <p>
+        Goals are attainable if you set the right type of goals. Being clear and specific about goals helps stay on track and is a way to hold myself accountable. I have realized that setting vague goals can be a behavior that stems from low self-esteem and a fear of failure. Poorly structured goals can also serve as a way to avoid responsibility when I do not achieve what I intended. SMART goals encourage realistic objectives that promote measurable progression.
+    </p>
+
+</section>
+
+<section style="min-height: 50vh; max-width: 800px; margin-bottom: 100px;">
+
+    <h1>02: Diagnostic Assessment and Achievement of College Skills</h1>
+
+    <h2>
+        Analyzing academic midichlorian count.... improvement identified....
+    </h2>
+
+    <p>
+        A mix of strength and weakness were identified after taking the DAACS. I recognized areas to improve and focused on them using monitoring and evaluation techniques. I have already applied these strategies in my Chemistry class this summer.
+    </p>
+
+</section>
+
+<section style="min-height: 50vh; max-width: 800px; margin-bottom: 100px;">
+
+    <h1>03: Planning for Academic Success</h1>
+
+    <p>
+        This lesson showed me that I need to have a plan and commit. Having a plan is the key to success, and regularly meeting with advisors helped me achieve my goals.
+    </p>
+
+</section>
+
+<section style="min-height: 50vh; max-width: 800px; margin-bottom: 100px;">
+
+    <h1>04: Lessons Learned</h1>
+
+    <p>
+        The path is forward and I'm not alone. Although my goals are my own, I have support from family, friends, classmates, instructors, and advisors. I embrace challenges and will ask for help when needed. Online learning is difficult, but I am prepared to communicate early and effectively.
+    </p>
+
+</section>
+
+<!-- Lightsaber -->
+<div style="
+    position: fixed;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+">
+
+    <div id="bladeExtendo" style="
+        width: 10px;
+        height: 0px;
+        background: white;
+        box-shadow:
+            0 0 5px red,
+            0 0 10px red,
+            0 0 20px red,
+            0 0 40px red;
+        transition: height 0.3s ease-out;
+        border-radius: 3px;
+    "></div>
+
+    <div style="
+        width: 20px;
+        height: 60px;
+        background: #222;
+    "></div>
+
+</div>
+
+<section>
+    <h1>I like Star Wars.</h1>
+</section>
+
+<script>
+window.addEventListener('scroll', function () {
+    const blade = document.getElementById('bladeExtendo');
+
+    const scrollPercent =
+        window.scrollY /
+        (document.body.scrollHeight - window.innerHeight);
+
+    blade.style.height = (scrollPercent * 250) + "px";
+});
+</script>
+
+</body>
+</html>
