@@ -1,0 +1,132 @@
+<html>
+<head>
+<style>
+        body {
+            background-color: #080808;
+            color: #888;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px; }
+
+        section {
+            min-height: 50vh;
+            max-width: 800px;
+            margin-bottom: 100px; }
+
+
+        h1{ color: #555; font-size: 3rem; }
+        h2{ color: #555; font-size: 1.2rem; }
+       
+
+        .lightsaber {
+            position: fixed;
+            bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; }
+
+       #bladeExtendo {
+        width: 10px; 
+        height: 0;
+        background: #ffffff; 
+
+        box-shadow: 
+        0 0 5px #ff0000, 
+        0 0 10px #ff0000, 
+        0 0 20px #ff0000, 
+        0 0 40px #ff0000;
+        transition: height 0.3s ease-out;
+        border-radius: 3px; }
+
+        .hiltBox{
+            width: 20px;
+            height: 60px;
+            background: #222;}
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <h1 style="color: rebeccapurple;">LIGHTSABER ACRONYM! </h1>
+    <h2>
+        <span style="color: steelblue;">L</span>  OCK IN!<br>
+        <span style="color: skyblue;">I</span>  ntentional Goals<br>
+        <span style="color: darkblue;">G</span>  rowth<br>
+        <span style="color: aliceblue;">H</span>  abits of consistency<br>
+        <span style="color: cadetblue;">T</span>  ime Management<br>
+        <span style="color: cornflowerblue;">S</span>  MART Goals<br>
+        <span style="color: lawngreen;">A</span>  ccountability<br>
+        <span style="color: palegreen;">B</span>  alance of School and Work<br>
+        <span style="color: springgreen;">E</span>  ffective Communication<br>
+        <span style="color: yellowgreen;">R</span>  esults<br>
+    </h2>
+
+        <h1 style="color: red"; > Sith Code: </h1>
+        <h2>
+            <span style="color: red;">
+            "Peace is a lie, there is only passion.<br>
+            Through passion, I gain strength.<br>
+            Through strength, I gain power.<br>
+            Through power, I gain victory.<br>
+            Through victory, my chains are broken.<br>
+            The Force shall free me."<br>
+        </span>
+        </h2>
+
+        <h2> 
+            <span style="color: red;">
+        <h1 style="color: red;">Sith Code Revised Using SMART: </h1><br>
+        Vague purpose is a weakness, there is only clear intent.<br>
+        Through Specific goals, I gain direction.<br>
+        Through Measurable progress, I gain awareness.<br>
+        Through Achievable steps, I gain vision.<br>
+        Through Relevant values, I gain consistency.<br>
+        Through Time-bound deadlines, I gain urgency.<br>
+        Through structure, I gain mastery.<br>
+        Define your path and take action! <br>
+    </span>
+    </h2>
+
+
+        <h1>01: Values, Motivations, and Goals</h1>
+        <h2 style="color: green;">"Do or do not. There is no try." -Jedi Grandmaster Yoda</h2>
+        <p>Goals are attainable if you set the right type of goals. Being clear and specific about goals helps stay on track and is a way to hold myself accountable. I have realized that setting vague goals can be a behavior that stems from low self-esteem and a fear of failure. Poorly structured goals can also serve as a way to avoid responsibility when I do not achieve what I intended. SMART goals encourage realistic objectives that promote measurable progression. 
+    </section>
+
+    <section>
+        <h1>02: Diagnostic Assessment and Achievement of College Skills</h1>
+        <h2>Analyzing academic midichlorian count.... improvement identified.... </h2>
+        <p> A mix of strength and weakness were identified after taking the DAACS. But not only that, but techniques to apply to make learning easier. I recognized and became aware of areas to improve and focus on them to change them to strengths, by staying relaxed, monitoring and evaluating my progress throughout the assignments and after. I have already seen myself utilize these techniques while taking my Chemistry class this summer. </p>
+    </section>
+
+    <section>
+        <h1>03: Planning for Academic Success</h1>
+        <p>This lesson really showed me that I need to have a plan and commit. Having a plan is the key to success and regularly and routinely meeting with my advisors helped and assist me in achieving goals</p>
+    </section>
+
+    <section>
+        <h1>04: Lessons Learned</h1>
+        <p>The path is forward and I'm not alone. Although my goals are my own, I still have people that are willing to help: Family, friends, classmates, instructors, and advisors. As well as resources available provided by UMGC and the military. I embrace challenges and I'm confident that I can endure and if I can't, I'm not afraid to ask for instruction.  I realized that online learning is difficult and I am prepared to communicate my needs early and effectively to the best of my abilities and have patience. </p>
+    </section>
+
+    <div class="lightsaber">
+        <div id="bladeExtendo"></div>
+        <div class="hiltBox"></div>
+    </div>
+
+        <section> 
+                <h1> I like Star Wars. </h1>
+        </section>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            document.getElementById('bladeExtendo').style.height = 
+                (window.scrollY / (document.body.scrollHeight - window.innerHeight) * 250) + 'px';
+        });
+    </script>
+</body>
+</html>
+
