@@ -45,6 +45,25 @@
             height: 60px;
             background: #222;}
 
+        .photoAlbum {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .photoAlbum img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #333;
+            transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+        }
+
+
 
     </style>
 </head>
@@ -79,7 +98,7 @@
         <h2> 
             <span style="color: red;">
         <h1 style="color: red;">Sith Code Revised Using SMART: </h1><br>
-        There cannot be vague purpose, there is only clear intent.<br>
+        Vague purpose is a weakness, there is only clear intent.<br>
         Through Specific goals, I gain direction.<br>
         Through Measurable progress, I gain awareness.<br>
         Through Achievable steps, I gain vision.<br>
@@ -119,7 +138,8 @@
 
         <section> 
                 <h1> I like Star Wars. </h1>
-        </section>
+                <div class="photoAlbum"> <img src="IMG_3558.jpeg" alt="Yoda"> <img src="IMG_0159.PNG" alt="Darth Vader"> <img src="lightsaber.jpg" alt="Lightsaber"> </div> 
+            </section>
 
     <script>
         window.addEventListener('scroll', () => {
